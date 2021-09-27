@@ -1,11 +1,8 @@
-
-
-  body {
-  background: url(../imagens/capa.png),
-              url(../imagens/ruido.png),
-              linear-gradient(50deg,#ff4169, #7c26f8);
-              background-attachment: fixed;
-              font-family: Arial, Helvetica, sans-serif;           
+body {
+  background: url(../imagens/capa.png), url(../imagens/ruido.png),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -79,10 +76,21 @@
   margin-top: 30px;
 }
 
-.btn {
+.btn1 {
   font-size: 0.4em;
   border: none;
-  color: white;  
+  color: white;
+  border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+
+.btn2 {
+  font-size: 0.4em;
+  border: none;
+  color: white;
   border-radius: 500px;
   text-transform: uppercase;
   transition: background 0.4s, color 0.4s;
@@ -114,7 +122,7 @@
   justify-content: center;
   display: flex;
   background: white;
-  padding: 30px 0;  
+  padding: 30px 0;
 }
 
 .albuns {
@@ -137,7 +145,8 @@
   color: black;
 }
 
-.servicos h2, h3 {
+.servicos h2,
+h3 {
   color: #7c25f8;
 }
 
@@ -157,7 +166,8 @@ h3 {
   width: 350px;
 }
 
-.facil h2, p {
+.facil h2,
+p {
   color: white;
 }
 
@@ -179,7 +189,7 @@ h3 {
   padding-left: 120px;
 }
 
-.rodape{
+.rodape {
   width: 100%;
   background: black;
   position: relative;
@@ -223,8 +233,4 @@ h3 {
 
 .img-spotify {
   padding: 20px 0;
-}
-
-.list-1 a {
-  
 }
